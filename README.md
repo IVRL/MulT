@@ -31,5 +31,5 @@ If you find the code, data, or the models useful, please cite this paper:
 ```
 ## License 
 ``` 
- [Creative Commons Attribution Non-commercial No Derivatives](http://creativecommons.org/licenses/by-nc-nd/3.0/)
+ [MIT License](http://creativecommons.org/licenses/by-nc-nd/3.0/)
 ```
