@@ -15,7 +15,7 @@ conda install -c conda-forge nvidia-apex
 ```
 
 ```
-All models are available at https://drive.google.com/drive/folders/1df-jlouewbr2wLAQtlWzL4Hf5pxT2hHz?usp=sharing
+All models are available at 
 
 ##  Citation
 
