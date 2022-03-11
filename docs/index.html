@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>MulT: An End-to-End Multitask Learning Transformer</title>
+
+    <style>[style*="--aspect-ratio"] > :first-child { width: 100%; } [style*="--aspect-ratio"] > img { height: auto; } @supports (--custom:property) { [style*="--aspect-ratio"] { position: relative; } [style*="--aspect-ratio"]::before { content: ""; display: block; padding-bottom: calc(100% / (var(--aspect-ratio))); } [style*="--aspect-ratio"] > :first-child { position: absolute; top: 0; left: 0; height: 100%; } }</style>
+</head>
+
+<body style="margin: auto;font-size: x-large;padding: 50px;">
+    
+    <center style="margin:auto; max-width:1920px;">
+        <img width=400px src="abstract.png" style="width: 1000px;max-width: 100%;vertical-align: top;">
+        <img width=400px src="cvpr2022.png" alt="Accepted to CVPR 2022" style="width: 600px;max-width: 100%;vertical-align: top;padding-left:50px">
+    <h1>
+        MulT: An End-to-End Multitask Learning Transformer
+    </h1>
+    
+        
+        <a class="pubauthor" href="https://www.linkedin.com/in/deblina/">Deblina Bhattacharjee</a>,
+        <a class="pubauthor" href="https://people.epfl.ch/tong.zhang?lang=en">Tong Zhang</a>,
+        <a class="pubauthor" href="https://www.epfl.ch/labs/ivrl/people/susstrunk/">Sabine Süsstrunk</a>,
+        <a class="pubauthor" href="https://people.epfl.ch/mathieu.salzmann">Mathieu Salzmann</a>
+        
+        
+    <div style="width: 1600px;max-width: 100%;margin:auto">
+    <h2 style="text-align: left;">Abstract</h2>
+    <p style="text-align: justify;">
+        We propose an end-to-end Multitask Learning Transformer framework, named MulT, to simultaneously learn multiple high-level vision tasks, including depth estimation, semantic segmentation, reshading, surface normal estimation, 2D keypoint detection, and edge detection. Based on the Swin transformer model, our framework encodes the input image into a shared representation and makes predictions for each vision task using task-specific transformer-based decoder heads. At the heart of our approach is a shared attention mechanism modeling the dependencies across the tasks. We evaluate our model on several multitask benchmarks, showing that our MulT framework outperforms both the state-of-the art multitask convolutional neural network models and all the respective single task transformer models. Our experiments further highlight the benefits of sharing attention across all the tasks, and demonstrate that our MulT model is robust and generalizes well to new domains.
+    </p>
+
+    
+    
+    
+    <h2 style="display: inline-block;">links:&nbsp;</h2>
+    <a target="_blank" href="https://arxiv.org/pdf/2110.03575.pdf"><img src="pdf_icon_32x32.jpeg" alt="Paper" title="Paper"></a>
+    <!--
+        <a target="_blank" href="https://goo.gl/forms/hCLNHOcv7NRkEQP03"><img src="images/data_icon.ico" alt="Data" title="Data" width="32" height="32"></a>
+    -->
+    <a target="_blank" href="https://github.com/IVRL/ComicsDepth"><img src="code_icon.png" alt="Code" title="Code"></a>
+    
+    <a target="_blank" href="https://youtu.be/Yc5BPRolHNA"><img src="youtube.png" alt="Presentation" title="Presentation" width="32" height="32"></a>
+    <!--<a target="_blank" href="wacv_deblina.bib"><img src="bibtex_icon_36x36.png" alt="Bibtex" title="Bibtex" width="32" height="32"></a>-->
+   
+   <a target="_blank" href="https://drive.google.com/file/d/1OUb8k1b-0BvoTOKQxV4kJL5K3EVWvEDA/view?usp=sharing"><img src="presentation_icon.png" alt="Poster" title="Poster"></a>
+
+    
+    
+    <hr style="max-width: 100%;">
+    </div>
+    <div class="row">
+    
+    <img src="architecture.png" style="width: 1300px;max-width: 100%;margin: 50px 0px;vertical-align: top;">
+    <img src="qualitative.png" style="width: 900px;max-width: 100%;">
+    
+    </div>
+    <div  style="width:100%;--aspect-ratio:16/9;margin:50px 0px;border:2px solid gray" >
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Yc5BPRolHNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <h5 style="text-align: left;">Created by Deblina Bhattacharjee </h5>
+    </center>
+</body>
+
+</html>
