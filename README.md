@@ -21,12 +21,12 @@ All models are available at https://drive.google.com/drive/folders/1df-jlouewbr2
 If you find the code, data, or the models useful, please cite this paper:
 ```
      @InProceedings{Bhattacharjee_2022_WACV,
-    author    = {Bhattacharjee, Deblina and Everaert, Martin and Salzmann, Mathieu and S\"usstrunk, Sabine},
-    title     = {Estimating Image Depth in the Comics Domain},
-    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-    month     = {January},
+    author    = {Bhattacharjee, Deblina and Zhang, Tong and S\"usstrunk, Sabine and Salzmann, Mathieu},
+    title     = {MulT: An End-to-End Multitask Learning Transformer},
+    booktitle = {Proceedings of the IEEE/CVF Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
     year      = {2022},
-    pages     = {2070-2079}
+    pages     = {}
 }
 ```
 ## License 
