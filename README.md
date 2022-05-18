@@ -6,7 +6,7 @@ Code will be published after the conference proceedings. Thanks for your patienc
 CVPR 2022 Paper: https://arxiv.org/pdf/2205.08303.pdf
 
 https://ivrl.github.io/MulT/
-![Figure Abstract](fig_abstract.png)
+![Figure Abstract](fig-abstract.png)
 
 1. Install pytorch,torchvision
 2. Install apex
