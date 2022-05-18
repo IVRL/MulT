@@ -1,9 +1,9 @@
 # (CVPR 2022) MulT: An End-to-End Multitask Learning Transformer
 Deblina Bhattacharjee, Tong Zhang, Sabine Süsstrunk and Mathieu Salzmann
 
-To be updated soon
-CVPR 2022 
-Paper: [Insert link]
+Code will be published after the conference proceedings. Thanks for your patience!
+
+CVPR 2022 Paper: https://arxiv.org/pdf/2205.08303.pdf
 
 https://ivrl.github.io/MulT/
 ![Figure Abstract](fig_abstract.png)
@@ -15,19 +15,21 @@ conda install -c conda-forge nvidia-apex
 ```
 
 ```
-All models are available at 
+
 
 ##  Citation
 
 If you find the code, data, or the models useful, please cite this paper:
 ```
-     @InProceedings{Bhattacharjee_2022_WACV,
-    author    = {Bhattacharjee, Deblina and Zhang, Tong and S\"usstrunk, Sabine and Salzmann, Mathieu},
-    title     = {MulT: An End-to-End Multitask Learning Transformer},
-    booktitle = {Proceedings of the IEEE/CVF Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2022},
-    pages     = {}
+  @misc{https://doi.org/10.48550/arxiv.2205.08303,
+  doi = {10.48550/ARXIV.2205.08303},
+  url = {https://arxiv.org/abs/2205.08303},
+  author = {Bhattacharjee, Deblina and Zhang, Tong and Süsstrunk, Sabine and Salzmann, Mathieu},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {MulT: An End-to-End Multitask Learning Transformer},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
 }
 ```
 ## License 
