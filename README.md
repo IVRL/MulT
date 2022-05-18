@@ -14,11 +14,8 @@ https://ivrl.github.io/MulT/
 conda install -c conda-forge nvidia-apex 
 ```
 
-```
-
 
 ##  Citation
-
 If you find the code, data, or the models useful, please cite this paper:
 ```
   @misc{https://doi.org/10.48550/arxiv.2205.08303,
