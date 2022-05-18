@@ -1,66 +1,130 @@
 
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>MulT: An End-to-End Multitask Learning Transformer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="MulT: An End-to-End Multitask Learning Transformer">
+    <meta name="author" content="Deblina Bhattacharjee, Tong Zhang, Sabine Süsstrunk, Mathieu Salzmann">
 
-    <style>[style*="--aspect-ratio"] > :first-child { width: 100%; } [style*="--aspect-ratio"] > img { height: auto; } @supports (--custom:property) { [style*="--aspect-ratio"] { position: relative; } [style*="--aspect-ratio"]::before { content: ""; display: block; padding-bottom: calc(100% / (var(--aspect-ratio))); } [style*="--aspect-ratio"] > :first-child { position: absolute; top: 0; left: 0; height: 100%; } }</style>
+    <title>MulT: An End-to-End Multitask Learning Transformer</title>
+    <!-- Bootstrap core CSS -->
+    <!--link href="bootstrap.min.css" rel="stylesheet"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="offcanvas.css" rel="stylesheet">
+    <!--    <link rel="icon" href="img/favicon.gif" type="image/gif">-->
 </head>
 
-<body style="margin: auto;font-size: x-large;padding: 50px;">
-    
-    <center style="margin:auto; max-width:1920px;">
-        <img width=400px src="abstract.png" style="width: 1000px;max-width: 100%;vertical-align: top;">
-        <img width=400px src="cvpr2022.png" alt="Accepted to CVPR 2022" style="width: 600px;max-width: 100%;vertical-align: top;padding-left:50px">
-    <h1>
-        MulT: An End-to-End Multitask Learning Transformer
-    </h1>
-    
-        
-        <a class="pubauthor" href="https://www.linkedin.com/in/deblina/">Deblina Bhattacharjee</a>,
-        <a class="pubauthor" href="https://people.epfl.ch/tong.zhang?lang=en">Tong Zhang</a>,
-        <a class="pubauthor" href="https://www.epfl.ch/labs/ivrl/people/susstrunk/">Sabine Süsstrunk</a>,
-        <a class="pubauthor" href="https://people.epfl.ch/mathieu.salzmann">Mathieu Salzmann</a>
-        
-        
-    <div style="width: 1600px;max-width: 100%;margin:auto">
-    <h2 style="text-align: left;">Abstract</h2>
-    <p style="text-align: justify;">
-        We propose an end-to-end Multitask Learning Transformer framework, named MulT, to simultaneously learn multiple high-level vision tasks, including depth estimation, semantic segmentation, reshading, surface normal estimation, 2D keypoint detection, and edge detection. Based on the Swin transformer model, our framework encodes the input image into a shared representation and makes predictions for each vision task using task-specific transformer-based decoder heads. At the heart of our approach is a shared attention mechanism modeling the dependencies across the tasks. We evaluate our model on several multitask benchmarks, showing that our MulT framework outperforms both the state-of-the art multitask convolutional neural network models and all the respective single task transformer models. Our experiments further highlight the benefits of sharing attention across all the tasks, and demonstrate that our MulT model is robust and generalizes well to new domains.
+<body>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container"></div>
+    <h1>MulT: An End-to-End Multitask Learning Transformer</h1>
+    <h3>CVPR 2022</h3>
+           <p class="abstract"></p>
+    <hr>
+    <p class="authors">
+        <a href="https://www.linkedin.com/in/deblina/"> Deblina Bhattacharjee</a>,
+        <a href="https://people.epfl.ch/tong.zhang?lang=en"> Tong Zhang</a>,
+        <a href="https://www.epfl.ch/labs/ivrl/people/susstrunk/"> Sabine Süsstrunk</a>,
+        <a href="https://people.epfl.ch/mathieu.salzmann"> Mathieu Salzmann</a>,
     </p>
+    <div class="btn-group" role="group" aria-label="Top menu">
+        <a class="btn btn-primary" href="https://arxiv.org/pdf/2205.08303.pdf">Paper</a>
+        <a class="btn btn-primary" href="https://github.com/IVRL/MulT">Code (coming soon)</a>
+         <a class="btn btn-primary" href="https://drive.google.com/file/d/117sSMRLz-oov-EJH5K4gmlTWLBjVhRae/view?usp=sharing">Poster</a>
+    </div>
+</div>
 
-    
-    
-    
-    <h2 style="display: inline-block;">links:&nbsp;</h2>
-    <a target="_blank" href="https://arxiv.org/pdf/2205.08303.pdf"><img src="pdf_icon_32x32.jpeg" alt="Paper" title="Paper"></a>
-    <!--
-        <a target="_blank" href="https://goo.gl/forms/hCLNHOcv7NRkEQP03"><img src="images/data_icon.ico" alt="Data" title="Data" width="32" height="32"></a>
-    -->
-    <a target="_blank" href="https://github.com/IVRL/MulT"><img src="code_icon.png" alt="Code" title="Code"></a>
-    
-    <a target="_blank" href=""><img src="youtube.png" alt="Presentation" title="Presentation" width="32" height="32"></a>
-    <!--<a target="_blank" href="wacv_deblina.bib"><img src="bibtex_icon_36x36.png" alt="Bibtex" title="Bibtex" width="32" height="32"></a>-->
-   
-   <a target="_blank" href="https://drive.google.com/file/d/117sSMRLz-oov-EJH5K4gmlTWLBjVhRae/view?usp=sharing"><img src="presentation_icon.png" alt="Poster" title="Poster"></a>
+<div class="container">
+    <div class="section">
+        <div class="vcontainer">
+            <iframe class='video' src=" "  title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <hr>
+        <p>
+            We propose an end-to-end Multitask Learning Transformer framework, named MulT, to simultaneously learn multiple high-level vision tasks, including depth estimation, semantic segmentation, reshading, surface normal estimation, 2D keypoint detection, and edge detection. Based on the Swin transformer model, our framework encodes the input image into a shared representation and makes predictions for each vision task using task-specific transformer-based decoder heads. At the heart of our approach is a shared attention mechanism modeling the dependencies across the tasks. We evaluate our model on several multitask benchmarks, showing that our MulT framework outperforms both the state-of-the art multitask convolutional neural network models and all the respective single task transformer models. Our experiments further highlight the benefits of sharing attention across all the tasks, and demonstrate that our MulT model is robust and generalizes well to new domains.
+        </div>
 
-    
-    
-    <hr style="max-width: 100%;">
+        <div class="section">
+            <h2>Pipeline</h2>
+            <hr>
+                        <div class="row align-items-center">
+                <div class="col justify-content-center text-center">
+                    <img src="MulT_detailed.png" style="width:100%; margin-right:-10px; margin-top:-10px;">
+            </div> 
+            <hr>
+            <p>
+                Detailed overview of our MulT architecture. Our MulT model builds upon the Swin transformer backbone and models the dependencies between multiple vision tasks via a shared attention mechanism (shown in the bottom left), which we introduce in this work. The encoder module (in green) embeds a shared representation of the input image, which is then decoded by the transformer decoders (in blue) for the respective tasks. Note that the transformer decoders have the same architecture but different task heads. The overall model is jointly trained in a supervised manner using a weighted loss of all the tasks involved. For clarity, only three tasks are depicted here.  </p>
+            </p>
+        </div>
+        </div>
+
+        <div class="section">
+            <h2>Results</h2>
+            <hr>
+            
+                <div class="row align-items-center">
+                <div class="col justify-content-center text-center">
+                    <img src="QR-taskonomy1.png" style="width:100%; margin-right:-10px; margin-top:-10px;">
+            </div>
+            <hr>
+            <p>
+             Qualitative comparison on the six vision tasks of the Taskonomy benchmark. From top to bottom, we show qualitative results using CNN multitak learning baselines, such as- MTL, Taskonomy, Taskgrouping, Cross-task consistency; the single-task dedicated Swin transformer and our six-task MulT model. We show, from left to right, the input image, the semantic segmentation results, the depth predictions, the surface normal estimations, the 2D keypoint detections, the 2D edge detections and the reshading results for all the models. All models are jointly trained on the six vision tasks, except for the Swin transformer baseline, which is trained on the independent single tasks. Our MulT model outperforms both the single task Swin baselines and the multitask CNN based baselines. Best seen on screen and zoomed within the yellow circled regions.
+            </p>
+            </div>
+            </div>
+    <div class="section">
+            <h2>Generalization to New Domains</h2>
+            <hr>
+            
+                <div class="row align-items-center">
+                <div class="col justify-content-center text-center">
+                    <img src="generalisation.png" style="width:100%; margin-right:-10px; margin-top:-10px;">
+            </div>
+            <hr>
+            <p>
+             Our MulT model generalizes better to new domains than the Cross-task CNN baseline, both when fine-tuned and not fine-tuned, across the tasks of surface normal prediction and reshading. This shows the benefits of our shared attention module. We test the models on two target domains, Gaussian blur applied to the Taskonomy images and the out-of distribution CocoDoom dataset. Best viewed on screen and when zoomed in the yellow circled regions.
+            </p>
+            </div>
+            </div>
+    <div class="section">
+        <h2>Bibtex</h2>
+        <hr>
+        <div class="row align-items-center"></div>
+        <div class="col justify-content-center text-center">
+        <div class="bibtexsection">
+               @misc{https://doi.org/10.48550/arxiv.2205.08303,
+                    doi = {10.48550/ARXIV.2205.08303},
+                    author = {Bhattacharjee, Deblina and Zhang, Tong and Süsstrunk, Sabine and </br>                              Salzmann, Mathieu},
+                    title = {MulT: An End-to-End Multitask Learning Transformer},
+                    publisher = {arXiv},
+                    year = {2022},
+                    copyright = {Creative Commons Attribution Non Commercial No Derivatives </br>                                4.0 International}
+                    }
+
+        </div>
     </div>
-    <div class="row">
-    
-    <img src="architecture.png" style="width: 1300px;max-width: 100%;margin: 50px 0px;vertical-align: top;">
-    <img src="qualitative.png" style="width: 900px;max-width: 100%;">
-    
     </div>
-    <div  style="width:100%;--aspect-ratio:16/9;margin:50px 0px;border:2px solid gray" >
-        <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <h5 style="text-align: left;">Created by Deblina Bhattacharjee </h5>
-    </center>
+
+    <hr>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
-
 </html>
