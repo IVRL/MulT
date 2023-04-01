@@ -18,15 +18,13 @@ conda install -c conda-forge nvidia-apex
 ##  Citation
 If you find the code, data, or the models useful, please cite this paper:
 ```
-  @misc{https://doi.org/10.48550/arxiv.2205.08303,
-  doi = {10.48550/ARXIV.2205.08303},
-  url = {https://arxiv.org/abs/2205.08303},
-  author = {Bhattacharjee, Deblina and Zhang, Tong and Süsstrunk, Sabine and Salzmann, Mathieu},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {MulT: An End-to-End Multitask Learning Transformer},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
+  @InProceedings{Bhattacharjee_2022_CVPR,
+    author    = {Bhattacharjee, Deblina and Zhang, Tong and S\"usstrunk, Sabine and Salzmann, Mathieu},
+    title     = {MulT: An End-to-End Multitask Learning Transformer},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {12031-12041}
 }
 ```
 ## License 
