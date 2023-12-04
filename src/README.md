@@ -1,9 +1,6 @@
 ## [MulT: An End-to End Mutitask Learning Transformer](https://ivrl.github.io/MulT/)
 ### CVPR 2022
 
-```
-
-```
 ------------------------------------------------------------------------------------------------------------------------
 ### Installation
 
