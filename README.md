@@ -1,22 +1,16 @@
 # (CVPR 2022) MulT: An End-to-End Multitask Learning Transformer
 Deblina Bhattacharjee, Tong Zhang, Sabine Süsstrunk and Mathieu Salzmann
 
-Code will be published after the conference proceedings. Thanks for your patience!
+The code is released. Thanks for your patience!
 
-CVPR 2022 Paper: https://arxiv.org/pdf/2205.08303.pdf
+CVPR 2022 Paper: https://openaccess.thecvf.com/content/CVPR2022/html/Bhattacharjee_MulT_An_End-to-End_Multitask_Learning_Transformer_CVPR_2022_paper.html
 
 https://ivrl.github.io/MulT/
 ![Figure Abstract](fig-abstract.png)
 
-1. Install pytorch,torchvision
-2. Install apex
-```
-conda install -c conda-forge nvidia-apex 
-```
-
 
 ##  Citation
-If you find the code, data, or the models useful, please cite this paper:
+If you find this work useful, please cite this paper:
 ```
   @InProceedings{Bhattacharjee_2022_CVPR,
     author    = {Bhattacharjee, Deblina and Zhang, Tong and S\"usstrunk, Sabine and Salzmann, Mathieu},
