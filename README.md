@@ -1,4 +1,7 @@
 # (CVPR 2022) MulT: An End-to-End Multitask Learning Transformer
+
+[![DOI](https://zenodo.org/badge/468810604.svg)](https://zenodo.org/doi/10.5281/zenodo.11069059)
+
 Deblina Bhattacharjee, Tong Zhang, Sabine Süsstrunk and Mathieu Salzmann
 
 The code is released. Thanks for your patience!
